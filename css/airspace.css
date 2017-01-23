@@ -170,13 +170,21 @@ header  .navbar-nav li a {
 .more-link {
   color: #fff;
   position: absolute;
-  bottom: 0;
+  bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
 }
+.more-link:hover,
+.more-link:active {
+  color: #fff;
+}
 .more-link:after {
-  content: ;
+  font-family: 'FontAwesome';
+  content: "\f107";
+  font-size: 3rem;
+  display: block;
+  text-align: center;
 }
 /*--
 	intro Start
