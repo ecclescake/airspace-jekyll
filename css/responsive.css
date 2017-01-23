@@ -1,0 +1,166 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /*---------------------------------------------
+					Index Start 
+-----------------------------------------------*/
+  .section-title {
+    margin-bottom: 35px;
+  }
+  #intro,
+  #schedule,
+  #contact-box {
+    padding-top: 50px;
+  }
+  #intro .block img { padding-left: 0; }
+  /*--
+	footer Start 
+--*/
+  footer .navbar {
+    margin-bottom: 0px;
+    border: 0px;
+    min-height: 40px;
+  }
+  footer .navbar-default {
+    border: 0px;
+    width: 68%;
+  }
+  footer .navbar-default .navbar-nav li a {
+    color: #494949;
+    padding: 10px 10px;
+    font-size: 15px;
+  }
+  footer .navbar-default .navbar-nav li a:hover {
+    color: #000;
+  }
+  /*---------------------------------------------
+					Index Close 
+-----------------------------------------------*/
+  /*=============================================*/
+    /*---------------------------------------------
+					contact start 
+-----------------------------------------------*/
+  #wrapper-contact .block {
+    padding-bottom: 50px;
+  }
+  /*---------------------------------------------
+					contact close 
+-----------------------------------------------*/
+  /*------------------*/
+}
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+  #intro,
+  #schedule,
+  #contact-box {
+    padding-top: 50px;
+  }
+  div[class^='col-md'] {
+    margin-bottom: 2em;
+  }
+  /*---------------------------------------------
+					Index Start 
+-----------------------------------------------*/
+  .heading {
+    padding-left: 0px;
+  }
+  header .navbar {
+    background-color: #fff;
+  }
+  header div[class^='col-md'] {
+    margin-bottom: 0;
+  }
+  header .navbar-toggle {
+    margin-top: 0;
+  }
+  #slider {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+  }
+  #slider .block {
+    width: 90%;
+    text-align: left;
+    padding-top: 3rem;
+    position: static;
+    transform: none;
+    -webkit-transform: none;
+  }
+  #slider .block h1 {
+    font-size: 45px;
+  }
+  #slider .block p:first-of-type {
+    font-size: 20px;
+  }
+  #slider .block p {
+    font-size: 16px;
+  }
+  .social-icons {
+    font-size: 16px;
+  }
+  .section-title {
+    margin-bottom: 35px;
+  }
+  #intro .block img { padding-left: 0; }
+  /*---------------------------------------------
+					Index Close 
+-----------------------------------------------*/
+  /*=============================================*/
+  /*---------------------------------------------
+					contact Start 
+-----------------------------------------------*/
+  /*--
+	slider-contact Start 
+--*/
+  #slider-contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  #slider-contact .block {
+    padding-left: 0px;
+  }
+  /*--
+	wrapper-contact Start 
+--*/
+  #wrapper-contact .block {
+    padding-bottom: 50px;
+  }
+  #wrapper-contact .block .location p {
+    width: 100%;
+  }
+  #wrapper-contact .block .social-media-icon a i {
+    padding-top: 30px;
+  }
+  /*---------------------------------------------
+					contact close 
+-----------------------------------------------*/
+}
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
