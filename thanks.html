@@ -1,0 +1,46 @@
+---
+layout: page
+title: Thank You!
+permalink: /thanks/
+images:
+  - image_path: /img/home-gallery/emmeline.jpg
+  - image_path: /img/home-gallery/drake.jpg
+  - image_path: /img/home-gallery/mocha.jpg
+  - image_path: /img/home-gallery/storm.jpg
+  - image_path: /img/home-gallery/wasabi.jpg
+  - image_path: /img/home-gallery/bodihappyending.jpg
+  - image_path: /img/home-gallery/jeff-danica.jpg
+  - image_path: /img/home-gallery/reesebutt.jpg
+---
+
+<!-- Slider Start -->
+<section id="slider-thanks">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-2">
+        <div class="block">
+          <h1>Thank you!</h1>
+          <p>We'll be in touch shortly!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Content Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Just for fun...</h1>
+          <p>Here are some more bunny photos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Gallery Start -->
+<section id="photo-gallery">
+  {% for image in page.images %}
+    <div><img src="{{ image.image_path }}" alt="{{ image.title}}"/></div>
+  {% endfor %}
+</section>
