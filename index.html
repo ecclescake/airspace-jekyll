@@ -27,7 +27,7 @@ images:
         </li>
       </ul>
     </div>
-    <a class="more-link" href="#intro">More info below!</a>
+    <a class="more-link" href="#intro" style="display:none;">More info below!</a>
   </div>
 </section>
 <!-- Intro Start -->
@@ -149,6 +149,6 @@ images:
 <!-- Gallery Start -->
 <section id="photo-gallery">
   {% for image in page.images %}
-    <div><img src="{{ image.image_path }}" alt="{{ image.title}}"/></div>
+    <div><img src="{{ site.baseurl }}{{ image.image_path }}" alt="{{ image.title}}"/></div>
   {% endfor %}
 </section>

@@ -6,8 +6,6 @@
  * 
  */
 
-@import url(http://fonts.googleapis.com/css?family=Nunito:400,300,600);
-@import url(http://fonts.googleapis.com/css?family=Rancho);
 /* var text-decoration */
 /*--
 	Common Css
@@ -172,13 +170,21 @@ header  .navbar-nav li a {
 .more-link {
   color: #fff;
   position: absolute;
-  bottom: 0;
+  bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
 }
+.more-link:hover,
+.more-link:active {
+  color: #fff;
+}
 .more-link:after {
-  content: ;
+  font-family: 'FontAwesome';
+  content: "\f107";
+  font-size: 3rem;
+  display: block;
+  text-align: center;
 }
 /*--
 	intro Start
