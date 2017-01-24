@@ -169,6 +169,8 @@ header  .navbar-nav li a {
 }
 .more-link {
   color: #fff;
+}
+.more-link.delayed {
   position: absolute;
   bottom: 2rem;
   left: 50%;
@@ -179,7 +181,7 @@ header  .navbar-nav li a {
 .more-link:active {
   color: #fff;
 }
-.more-link:after {
+.more-link.delayed:after {
   font-family: 'FontAwesome';
   content: "\f107";
   font-size: 3rem;
@@ -191,7 +193,7 @@ header  .navbar-nav li a {
 --*/
 #intro,
 #schedule,
-#contact-box {
+#location {
   padding: 70px 0;
 }
 #intro ul {
@@ -201,7 +203,7 @@ header  .navbar-nav li a {
 }
 #intro ul li::before,
 #schedule ul li::before,
-#contact-box ul li::before {
+#location ul li::before {
   font-family: 'FontAwesome';
   content: "\f058";
   color: #d8804d;
@@ -384,25 +386,25 @@ header  .navbar-nav li a {
   font-size: 20px;
   width: 20px;
 }
-#contact-box {
+#location {
   padding-top: 35px;
   padding-bottom: 58px;
 }
-#contact-box .block img {
+#location .block img {
   width: 100%;
 }
-#contact-box .block h2 {
+#location .block h2 {
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
   color: #000;
   font-size: 28px;
   padding-bottom: 30px;
 }
-#contact-box .block p {
+#location .block p {
   color: #5C5C5C;
   display: block;
 }
-#contact-box i {
+#location i {
   font-size: 2em;
 }
 .contact-block {
