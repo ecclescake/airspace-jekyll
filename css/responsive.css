@@ -92,13 +92,20 @@ px      68    160    252    */
     margin-top: 0;
   }
   #slider {
-    padding-top: 50px;
+    padding-top: 70%;
     padding-bottom: 50px;
     height: auto;
+    background-size: contain;
+    background-position: center 70px;
+    background-color: #d8804d;
+  }
+  #slider:before {
+    opacity: 0;
   }
   #slider .block {
     width: 90%;
     text-align: left;
+    color: #fff;
     padding-top: 3rem;
     position: static;
     transform: none;
