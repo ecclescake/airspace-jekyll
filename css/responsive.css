@@ -98,6 +98,7 @@ px      68    160    252    */
     background-size: contain;
     background-position: center 70px;
     background-color: #d8804d;
+    background-attachment: scroll;
   }
   #slider:before {
     opacity: 0;
@@ -128,6 +129,8 @@ px      68    160    252    */
     margin-bottom: 35px;
   }
   #intro .block img { padding-left: 0; }
+
+  .vendors li { padding-bottom: .5em; }
   /*---------------------------------------------
 					Index Close 
 -----------------------------------------------*/

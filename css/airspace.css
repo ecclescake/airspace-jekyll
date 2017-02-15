@@ -174,8 +174,7 @@ header  .navbar-nav li a {
   position: absolute;
   bottom: 2rem;
   left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
+  margin-left: -50px;
 }
 .more-link:hover,
 .more-link:active {
