@@ -200,6 +200,9 @@ header  .navbar-nav li a {
   text-indent: -1.4em;
   margin-left: 1em;
 }
+#intro li {
+  margin-bottom: .5em;
+}
 #intro ul li::before,
 #schedule ul li::before,
 #location ul li::before {
@@ -262,6 +265,9 @@ header  .navbar-nav li a {
 }
 .card-title {
   font-size: 3rem;
+}
+.card-block .btn {
+  margin-bottom: 10px;
 }
 .vendors {
   
