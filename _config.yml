@@ -21,7 +21,7 @@ subtitle: "A day of education, fun, and supplies...all about bunnies!"
 # root of your server.
 # baseurl: "/" # the subpath of your site
 url: "" # the base hostname & protocol for your site
-baseurl: "/"
+baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
