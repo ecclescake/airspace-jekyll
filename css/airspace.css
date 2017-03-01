@@ -295,6 +295,9 @@ header  .navbar-nav li a {
   padding-left: .8rem;
   font-size: .8em;
 }
+#schedule img {
+  margin-top: 2em;
+}
 /*--
   location Start
 --*/
