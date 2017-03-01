@@ -188,6 +188,14 @@ header  .navbar-nav li a {
   text-align: center;
 }
 /*--
+  banner Start
+--*/
+#banner {
+  background-color: #ADE3D6;
+  text-align: center;
+  padding: 1em 0 1.5em;
+  }
+/*--
 	intro Start
 --*/
 #intro,
