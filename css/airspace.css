@@ -297,6 +297,7 @@ header  .navbar-nav li a {
 }
 #schedule img {
   margin-top: 2em;
+  max-width: 100%;
 }
 /*--
   location Start
