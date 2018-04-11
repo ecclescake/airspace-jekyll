@@ -13,6 +13,7 @@
 body {
   font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
+  color: #27306E;
   /*padding-top: 70px;*/
 }
 h1,
@@ -48,22 +49,23 @@ a:active {
   text-decoration: none;
 }
 a {
-  color: #d8804d;
+  color: #CB5484;
   transition: color .5s;
 }
 a:hover,
 a:focus,
 a:active {
-  color: #b75e29;
+  color: #b13366;
 }
 
 .btn-primary {
-  background-color: #d8804d;
-  border-color: #b75e29;
+  background-color: #27306E;
+  border-color: #121952;
   transition: background-color .5s;
 }
 .btn-primary:hover {
-  background-color: #b75e29;
+  background-color: #121952;
+  border-color: #121952;
 }
 
 .section-title {
@@ -95,14 +97,14 @@ header .navbar-brand {
   padding-top: 5px;
   font-family: 'Rancho';
   font-size: 3.5rem;
-  color: #d8804d;
+  color: #27306E;
 }
 header  .navbar-nav li a {
-  color: #d8804d;
+  color: #27306E;
   transition: background .5s;
 }
 .icon-bar {
-  background-color: #d8804d;
+  background-color: #27306E;
 }
 /*---------------------------------------------
 					Index Start
@@ -191,9 +193,10 @@ header  .navbar-nav li a {
   banner Start
 --*/
 #banner {
-  background-color: #ADE3D6;
+  background-color: #CB5484;
   text-align: center;
   padding: 1em 0 1.5em;
+  color: #fff;
   }
 /*--
 	intro Start
@@ -216,7 +219,7 @@ header  .navbar-nav li a {
 #location ul li::before {
   font-family: 'FontAwesome';
   content: "\f058";
-  color: #d8804d;
+  color: #CB5484;
   margin-right: .5em;
 
 }
@@ -242,7 +245,7 @@ header  .navbar-nav li a {
   display: inline-block;
 }
 .social-icons i {
-  color: #ADE3D6;
+  color: #CB5484;
   margin-right: 25px;
   font-size: 1.5em;
 }
@@ -253,7 +256,11 @@ header  .navbar-nav li a {
   schedule Start
 --*/
 #schedule {
-  background-color: #ADE3D6;
+  background-color: #e17ea6;
+  color: #fff;
+}
+#schedule .section-title p {
+  color: #fff;
 }
 .card {
   border: 1px solid rgba(0,0,0,.125);
@@ -263,28 +270,35 @@ header  .navbar-nav li a {
 .card-header {
   padding: .75rem 1.25rem;
   margin-bottom: 0;
-  background-color: #7dc4b2;
+  background-color: #3f4886;
   border-bottom: 1px solid rgba(0,0,0,.125);
   font-size: 1.75rem;
+  color: #fff;
 }
 .card-block {
   padding: 1.25rem;
-  background: #c9e6df;
+  background: #dde0f1;
+  color: #27306e;
 }
 .card-title {
   font-size: 3rem;
+  margin-bottom: 0;
+}
+.card-block h5 {
+  font-size: 2.25rem;
+  margin-top: 0;
 }
 .card-block .btn {
   margin-bottom: 10px;
 }
 .vendors {
-  
+  color: #fff;
 }
 .vendors li:before {
   display: none;
 }
 .vendors a {
-  color: #333;
+  color: #fff;
 }
 .vendors a:hover {
   border-bottom: 1px dashed;
@@ -439,6 +453,7 @@ header  .navbar-nav li a {
 }
 .contact-block i {
   padding-right: 1em;
+  color: #CB5484;
 }
 /*--
 	features-contact Start
