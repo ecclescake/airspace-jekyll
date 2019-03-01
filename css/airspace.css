@@ -49,22 +49,22 @@ a:active {
   text-decoration: none;
 }
 a {
-  color: #d8804d;
+  color: #CD4E60;
   transition: color .5s;
 }
 a:hover,
 a:focus,
 a:active {
-  color: #b75e29;
+  color: #b22b3e;
 }
 
 .btn-primary {
-  background-color: #d8804d;
-  border-color: #b75e29;
+  background-color: #CD4E60;
+  border-color: #CD4E60;
   transition: background-color .5s;
 }
 .btn-primary:hover {
-  background-color: #b75e29;
+  background-color: #b22b3e;
   /*border-color: #121952;*/
 }
 
@@ -97,14 +97,14 @@ header .navbar-brand {
   padding-top: 5px;
   font-family: 'Rancho';
   font-size: 3.5rem;
-  color: #d8804d;
+  color: #CD4E60;
 }
 header  .navbar-nav li a {
-  color: #d8804d;
+  color: #CD4E60;
   transition: background .5s;
 }
 .icon-bar {
-  background-color: #d8804d;
+  background-color: #CD4E60;
 }
 /*---------------------------------------------
 					Index Start
@@ -193,7 +193,7 @@ header  .navbar-nav li a {
   banner Start
 --*/
 #banner {
-  background-color: #ADE3D6;
+  background-color: #c3d7a5;
   text-align: center;
   padding: 1em 0 1.5em;
   /*color: #fff;*/
@@ -219,7 +219,7 @@ header  .navbar-nav li a {
 #location ul li::before {
   font-family: 'FontAwesome';
   content: "\f058";
-  color: #d8804d;
+  color: #CD4E60;
   margin-right: .5em;
 
 }
@@ -245,7 +245,7 @@ header  .navbar-nav li a {
   display: inline-block;
 }
 .social-icons i {
-  color: #ADE3D6;
+  color: #c3d7a5;
   margin-right: 25px;
   font-size: 1.5em;
 }
@@ -256,7 +256,7 @@ header  .navbar-nav li a {
   schedule Start
 --*/
 #schedule {
-  background-color: #ADE3D6;
+  background-color: #cde4ad;
   /*color: #fff;*/
 }
 #schedule .section-title p {
@@ -270,14 +270,14 @@ header  .navbar-nav li a {
 .card-header {
   padding: .75rem 1.25rem;
   margin-bottom: 0;
-  background-color: #7dc4b2;
+  background-color: #90B953;
   border-bottom: 1px solid rgba(0,0,0,.125);
   font-size: 1.75rem;
   /*color: #fff;*/
 }
 .card-block {
   padding: 1.25rem;
-  background: #c9e6df;
+  background: #d3ebb2; /*#C8DCA9;*/
   /*color: #27306e;*/
 }
 .card-title {
@@ -456,7 +456,7 @@ header  .navbar-nav li a {
 }
 .contact-block i {
   padding-right: 1em;
-  color: #d8804d;
+  color: #CD4E60;
 }
 .fa-envelope-o {
   padding-top: 0;
