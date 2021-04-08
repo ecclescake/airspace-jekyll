@@ -16,12 +16,12 @@ body {
   /*color: #27306E;*/
   /*padding-top: 70px;*/
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
   font-family: 'Rancho', sans-serif;
 }
 h2 {
@@ -59,13 +59,15 @@ a:active {
 }
 
 .btn-primary {
-  background-color: #CD4E60;
-  border-color: #CD4E60;
+  background-color: #FBD43A;
+  border-color: #FBD43A;
+  color: #333;
   transition: background-color .5s;
 }
 .btn-primary:hover {
-  background-color: #b22b3e;
-  /*border-color: #121952;*/
+  background-color: #ebca4a;
+  border-color: #ebca4a;
+  color: #333;
 }
 
 .section-title {
@@ -189,11 +191,15 @@ header  .navbar-nav li a {
   display: block;
   text-align: center;
 }
+.nav .more-link:hover,
+.nav .more-link:active {
+  color: #CD4E60;
+}
 /*--
   banner Start
 --*/
 #banner {
-  background-color: #c3d7a5;
+  background-color: #C3E4DB;
   text-align: center;
   padding: 1em 0 1.5em;
   /*color: #fff;*/
@@ -203,23 +209,29 @@ header  .navbar-nav li a {
 --*/
 #intro,
 #schedule,
+#resources,
 #location {
   padding: 70px 0;
 }
-#intro ul {
+#intro ul,
+#resources ul {
   padding-left: .5em;
   text-indent: -1.4em;
   margin-left: 1em;
 }
-#intro li {
+#intro li,
+#resources li {
   margin-bottom: .5em;
 }
 #intro ul li::before,
+#resources ul li::before,
 #schedule ul li::before,
-#location ul li::before {
+#resources ul li::before,
+#location ul li::before,
+#resources ul li::before {
   font-family: 'FontAwesome';
   content: "\f058";
-  color: #CD4E60;
+  color: #FBD43A;
   margin-right: .5em;
 
 }
@@ -245,7 +257,7 @@ header  .navbar-nav li a {
   display: inline-block;
 }
 .social-icons i {
-  color: #c3d7a5;
+  color: #C3E4DB;
   margin-right: 25px;
   font-size: 1.5em;
 }
@@ -256,11 +268,15 @@ header  .navbar-nav li a {
   schedule Start
 --*/
 #schedule {
-  background-color: #cde4ad;
+  background-color: #C3E4DB;
   /*color: #fff;*/
 }
 #schedule .section-title p {
   /*color: #fff;*/
+}
+h3.h2 {
+  padding-left: 15px;
+  font-size: 40px;
 }
 .card {
   border: 1px solid rgba(0,0,0,.125);
@@ -270,23 +286,33 @@ header  .navbar-nav li a {
 .card-header {
   padding: .75rem 1.25rem;
   margin-bottom: 0;
-  background-color: #90B953;
+  background-color: #4CBAB9;
   border-bottom: 1px solid rgba(0,0,0,.125);
   font-size: 1.75rem;
   /*color: #fff;*/
 }
 .card-block {
   padding: 1.25rem;
-  background: #d3ebb2; /*#C8DCA9;*/
+  background: #c7ebe1; /*#C8DCA9;*/
   /*color: #27306e;*/
+}
+.card-header .h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
 }
 .card-title {
   font-size: 3rem;
   margin-bottom: 0;
 }
 .card-block h5 {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
+  font-family: 'Nunito', sans-serif;
+  /*font-weight: bold;*/
   margin-top: 0;
+}
+.card-text {
+  font-weight: bold;
 }
 .card-block .btn {
   margin-bottom: 10px;
