@@ -320,6 +320,8 @@ h3.h2 {
   font-weight: 600;
 }
 .card-title {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
   font-size: 3rem;
   margin-bottom: 0;
 }
