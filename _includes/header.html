@@ -23,9 +23,14 @@
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ site.baseurl }}/">Home</a></li>
                 <!-- <li><a href="{{ site.baseurl }}/volunteer">Volunteer</a></li> -->
-                <li><a class="more-link" href="{{ site.baseurl }}#schedule">Schedule</a></li>
-                <li><a class="more-link" href="{{ site.baseurl }}#register">Register</a></li>
-                <li><a class="more-link" href="{{ site.baseurl }}#resources">Resources</a></li>
+                {% if page.title == "Sonoma County Bunfest" %}
+                  <li><a class="more-link" href="{{ site.baseurl }}#schedule">Schedule</a></li>
+                  <li><a class="more-link" href="{{ site.baseurl }}#resources">Resources</a></li>
+                {% else %}
+                  <li><a href="{{ site.baseurl }}/#schedule">Schedule</a></li>
+                  <li><a href="{{ site.baseurl }}/#resources">Resources</a></li>
+                {% endif %}
+                <li><a href="{{ site.baseurl }}/videos/">Videos</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
