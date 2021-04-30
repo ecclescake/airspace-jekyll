@@ -136,7 +136,8 @@ header  .navbar-nav li a {
 }
 #slider .block,
 #slider-contact .block,
-#slider-thanks .block {
+#slider-thanks .block,
+#slider-videos .block {
   color: #E3E3E4;
 }
 #slider .block {
@@ -149,7 +150,8 @@ header  .navbar-nav li a {
 }
 #slider .block h1,
 #slider-contact .block h1
-#slider-thanks .block h1 {
+#slider-thanks .block h1,
+#slider-videos .block h1 {
   font-family: 'Rancho', sans-serif;
   font-weight: 100;
   font-size: 65px;
@@ -383,6 +385,7 @@ h3.h2 {
 /*--
   register start
 --*/
+#register { display: none; }
 .number-circle-list {
   list-style: none;
   padding-left: .5em;
@@ -423,7 +426,7 @@ h3.h2 {
   resources start
 --*/
 #resources {
-  background-color: #C3E4DB;
+  /*background-color: #C3E4DB;*/
 }
 #resources ul li::before {
   color: #CD4E60;
@@ -432,6 +435,43 @@ h3.h2 {
   gallery Start
 --*/
 
+/*=============================================*/
+/*---------------------------------------------
+           Videos Start
+-----------------------------------------------*/
+#slider-videos {
+  background: url("../img/thanksbg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 150px;
+  padding-bottom: 107px;
+  position: relative;
+}
+#slider-videos:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  opacity: 0.7;
+}
+#videos .row {
+  margin-bottom: 15px;
+}
+
+#videos h3 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Nunito, sans-serif;
+}
+
+#videos .h4 {
+  font-family: Nunito, sans-serif;
+}
 /*=============================================*/
 /*---------------------------------------------
 					 Contact Start
